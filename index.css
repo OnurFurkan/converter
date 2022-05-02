@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 6px;
+}
+
+header {
+    background-image: linear-gradient(
+  225deg,
+  hsl(117deg 99% 47%) 0%,
+  hsl(122deg 85% 48%) 10%,
+  hsl(125deg 82% 46%) 20%,
+  hsl(127deg 79% 44%) 31%,
+  hsl(130deg 78% 41%) 41%,
+  hsl(132deg 76% 38%) 51%,
+  hsl(135deg 76% 36%) 61%,
+  hsl(139deg 76% 33%) 71%,
+  hsl(143deg 77% 30%) 81%,
+  hsl(147deg 80% 27%) 91%,
+  hsl(153deg 86% 23%) 100%
+);
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    text-align: center;
+}
+
+section {
+    height: 81.5rem;
+    width: 100%;
+    text-align: center;
+    background-color: #1F2937;
+    
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.col {
+    float: left;
+    width: 100%;
+    padding: 10rem;
+    height: 25rem;
+}
+
+h2 {
+    
+    color: #ffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 20px;
+    
+}
+
+p {
+    padding-top: 2rem;
+    color: #D2D2D2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 20px;
+}
+
+
+/* İçerikler */
+#heading {
+    position:relative;
+    top: 1rem; 
+    padding-bottom: 110px;
+    
+    font-family: 'Inter', sans-serif;
+    line-height: 38px;
+    font-size: 25px;
+    color: #ffff;
+   
+}
+
+#number-el {
+    text-align: center;
+    width: 25rem;
+    background-color: transparent;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97.5723px;
+    line-height: 24px;
+    color: #ffff;
+
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+@media screen and (min-width:400px) and (max-width:800px) {
+    #heading {
+       
+        width: 100%;
+        font-size: 6rem;
+    }
+
+    section {
+        height: 82rem;
+    }
+
+    p {
+        padding-right: 25rem;
+        width: 70rem;
+        font-size: 2rem;
+    }
+}
